@@ -9,7 +9,8 @@ A simple, drag-and-drop Kanban board application built with vanilla JavaScript, 
 - **Delete Tasks**: Remove tasks you no longer need
 - **Persistent Storage**: Tasks are saved to localStorage and persist across sessions
 - **Task Counter**: Each column displays the number of tasks it contains
-- **Dark Theme**: Modern dark UI with smooth animations
+- **Modern UI**: Enhanced dark theme with smooth animations, gradient accents, and polished interactions
+- **Satoshi Font**: Clean, modern typography using the Satoshi font family
 
 ## Getting Started
 
@@ -41,13 +42,23 @@ You can customize the color scheme by modifying CSS variables in `style.css`:
 
 ```css
 :root {
-  --bg-color: #000000;
-  --bg-button-color: #1a1a1a;
-  --bg-task-color: #2a2a2a;
-  --primary-text-color: #f4f4f4;
+  --bg-color: #0a0a0f;
+  --bg-button-color: #1a1a24;
+  --bg-task-color: #252535;
+  --primary-text-color: #f4f4f9;
+  --secondary-text-color: #a0a0b0;
   --delete-color: #ff4d4d;
+  --accent-color: #6366f1;
+  --border-color: #2a2a3a;
 }
 ```
+
+The design includes:
+- Smooth hover effects and transitions
+- Gradient buttons with subtle shadows
+- Animated task cards with slide-in effects
+- Enhanced modal with backdrop blur
+- Responsive column highlighting on drag
 
 ## Browser Compatibility
 
@@ -55,5 +66,7 @@ Works in all modern browsers that support:
 - HTML5 Drag and Drop API
 - localStorage
 - CSS Grid and Flexbox
+
+## License
 
 Free to use and modify as needed.
